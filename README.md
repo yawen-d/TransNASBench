@@ -109,14 +109,3 @@ Micro example network: 64-41414-1_02_333
 # Citation
 
 If you find that TransNAS-Bench-101 helps your research, please consider citing it:
-
-​
-​
-
-
-
-
-
-
-
-
