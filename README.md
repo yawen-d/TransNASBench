@@ -1,8 +1,8 @@
-# TransNAS-Bench-101: Improving Transferrability and Generalizability of Cross-Task Neural Architecture Search
+# TransNAS-Bench-101
 
-We propose TransNAS-Bench-101, a benchmark containing network performance across seven tasks, covering classification, regression, pixel-level prediction, and self-supervised tasks. This diversity provides opportunities to transfer NAS methods among the tasks and allows for more complex transfer schemes to evolve. We explore two fundamentally different types of search spaces: cell-level search space and macro-level search space. With 7,352 backbones evaluated on seven tasks, 51,464 trained models with detailed training information are provided. With TransNASBench-101, we hope to encourage the advent of exceptional NAS algorithms that raise cross-task search efficiency and generalizability to the next level.
+This repository contains the publishable code for CVPR 2021 paper [TransNAS-Bench-101: Improving Transferrability and Generalizability of Cross-Task Neural Architecture Search](https://arxiv.org/abs/2105.11871).
 
-In this Markdown file, we show an example how to use TransNAS-Bench-101. The complete network training information file can be found through [VEGA](https://www.noahlab.com.hk/opensource/vega/page/doc.html?path=datasets/transnasbench101).
+In this Markdown file, we show an example how to use TransNAS-Bench-101. The complete network training and evaluation information file can be found through [VEGA](https://www.noahlab.com.hk/opensource/vega/page/doc.html?path=datasets/transnasbench101).
 
 ## How to use TransNAS-Bench-101
 
