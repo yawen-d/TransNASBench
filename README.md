@@ -91,21 +91,6 @@ Micro example network: 64-41414-1_02_333
   - node3: Conv3x3( node0 ) + Conv3x3( node1 ) + Conv3x3( node2 ) # 333
 ```
 
-## How to regenerate TransNAS-Bench-101
-
-- Taskonomy_mini data used to train the networks
-    - Raw images and labels should be downloaded from this [link]().
-    - train/val/test split is located in `configs/dataset_split/final5k/`
-- Train a new neural network
-    - `code/scripts/train_a_net.sh -g <gpu_id> -t <task_name> -e <network_encoding> --seed <seed>`
-        - Example usage: `code/scripts/train_a_net.sh -g 0 -t class_scene -e 64-41414-2_03_323 --seed 666`
-- Regenerate a new benchmark dataset
-    - `code/scripts/get_bm_sp.sh -t <task_name> -g <gpu_num> --start <start_net_idx> --end <end_net_idx> --trial <log_name> --mode <fill or force>`
-        - `<start_net_idx>`: start training from `<start_net_idx>`-th network in `benchmark_status/net_strings_all.json` 
-        - `<end_net_idx>`: stop training until `<end_net_idx>`-th network in `benchmark_status/net_strings_all.json` 
-        - `<mode>`: `force` == train selected networks by force; `fill` == only evaluate untrained ones in selected networks 
-        - Example usage: `code/scripts/gen_bm_sp.sh -t class_object -g 4 --start 4 --end 8 --trial test --mode fill`
-
 # Citation
 
 If you find that TransNAS-Bench-101 helps your research, please consider citing it:
