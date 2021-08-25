@@ -73,7 +73,7 @@ A complete example is given in `code/api/example.py`
 
 ## Example network encoding in both search spaces
 
-```
+```markdown
 Macro example network: 64-1234-basic
 - Base channel: 64
 - Macro skeleton: 1234 (4 stacked modules)
@@ -94,3 +94,13 @@ Micro example network: 64-41414-1_02_333
 # Citation
 
 If you find that TransNAS-Bench-101 helps your research, please consider citing it:
+
+```bibtex
+@inproceedings{duan2021transnas,
+  title = {TransNAS-Bench-101: Improving Transferability and Generalizability of Cross-Task Neural Architecture Search},
+  author = {Duan, Yawen and Chen, Xin and Xu, Hang and Chen, Zewei and Liang, Xiaodan and Zhang, Tong and Li, Zhenguo},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages = {5251--5260},
+  year = {2021}
+}
+```
