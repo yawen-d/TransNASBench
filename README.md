@@ -104,3 +104,6 @@ If you find that TransNAS-Bench-101 helps your research, please consider citing 
   year = {2021}
 }
 ```
+
+# License
+MIT license.
