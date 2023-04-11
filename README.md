@@ -2,7 +2,7 @@
 
 This repository contains the publishable code for CVPR 2021 paper [TransNAS-Bench-101: Improving Transferrability and Generalizability of Cross-Task Neural Architecture Search](https://arxiv.org/abs/2105.11871).
 
-In this Markdown file, we show an example how to use TransNAS-Bench-101. The complete network training and evaluation information file can be found through [VEGA](https://www.noahlab.com.hk/opensource/vega/page/doc.html?path=datasets/transnasbench101).
+In this Markdown file, we show an example how to use TransNAS-Bench-101. The complete network training and evaluation information file can be found through [VEGA](https://www.noahlab.com.hk/opensource/vega/page/doc.html?path=datasets/transnasbench101) or this [Google Drive Folder](https://drive.google.com/drive/folders/1HlLr2ihZX_ZuV3lJX_4i7q4w-ZBdhJ6o?usp=share_link).
 
 ## How to use TransNAS-Bench-101
 
